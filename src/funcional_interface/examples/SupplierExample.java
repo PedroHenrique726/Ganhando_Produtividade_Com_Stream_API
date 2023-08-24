@@ -8,7 +8,7 @@ public class SupplierExample {
 
 	public static void main(String[] args) {
 		
-		Supplier<String> saudacao = () -> "Ola, seja bem vindo";
+		//Supplier<String> saudacao = () -> "Ola, seja bem vindo";
 		
 		List<String> listaSaudacoes = Stream.generate(() -> "Ola, seja bem vindo")
 				.limit(5)
